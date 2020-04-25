@@ -1,0 +1,9 @@
+# external packages
+node_modules
+
+# vim files
+*.swp
+*.swo
+
+# databases
+*.sqlite3

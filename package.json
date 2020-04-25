@@ -1,0 +1,17 @@
+{
+  "name": "sqlite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example.js",
+  "scripts": {
+    "migrate": "npx knex migrate:latest",
+    "rollback": "npx knex migrate:rollback",
+    "start": "node example.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^0.21.0",
+    "sqlite3": "^4.1.1"
+  }
+}
